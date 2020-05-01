@@ -73,13 +73,13 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 25%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all .8s;
   background-size: cover; 
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.4) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -223,17 +223,24 @@ a.social:hover {
   overflow: hidden;
   padding-top: 10px;
   padding-bottom: 10%;
+  margin-top: 0;
 }
 
 .heading {
 font-size:50px; 
 color: white;
-padding-top: 5%;
+display: inline-block;
+background-color:  rgba(48, 40, 40, 1);
+margin-top: 10%;
+padding: 2% 2%;
+border-radius: 20px;
+box-shadow: 2px 1px white;
 }
 
 .sec-heading {
 font-size: 35px;
 color: white;
+text-shadow: 5px 3px darkslategray;
 }
 
 .flex-2 {
@@ -250,8 +257,8 @@ color: white;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: center;
-  background:lightgrey;
-  border-bottom: 4px solid #ccc;
+  background: darkslategray; 
+  border-bottom: 4px solid orange;
   border-radius: 6px;
   transition: all .5s;
 }
@@ -264,7 +271,3 @@ font-size: 20px;
 font-weight: bold;
 text-decoration: underline;
 }
-
-
-
-
