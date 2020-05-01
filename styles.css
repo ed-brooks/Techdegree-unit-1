@@ -1,10 +1,10 @@
-/* Global Layout Set-up */
+
 * { 
   box-sizing: border-box;
 }
 
 * {
-font-family: font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
   
 body {
@@ -56,16 +56,17 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: white;
 }
 
-.home-header{
+.home-header {
   text-align: center;
   background: url('images/Vancouver.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
+
 header {
   line-height: 1.5;
 }
@@ -180,6 +181,7 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
+}
   
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
